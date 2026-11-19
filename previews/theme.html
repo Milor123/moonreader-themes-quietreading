@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moon+ Reader theme preview</title>
+<style>
+@font-face {
+  font-family: 'Gentium';
+  src: url('../fonts/GentiumPlus-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Gentium', Georgia, serif; -webkit-font-smoothing: antialiased; }
+
+.page {
+  width: 360px; height: 640px; overflow: hidden;
+  background: var(--bg); color: var(--fg);
+}
+.frame { display: flex; flex-direction: column; height: 100%;
+          padding: var(--vpad) var(--pad); }
+.text {
+  flex: 1; min-height: 0; overflow: hidden;
+  font-size: var(--fs); line-height: var(--lh);
+  text-align: left; hyphens: auto;
+}
+.text p { text-indent: 1.4em; }
+.text p:first-child { text-indent: 0; }
+/* let the page look like it continues instead of slicing a line in half */
+.text { -webkit-mask-image: linear-gradient(to bottom, #000 87%, transparent 100%);
+         mask-image: linear-gradient(to bottom, #000 87%, transparent 100%); }
+.meta {
+  margin-top: 13px; display: flex; justify-content: space-between;
+  font-family: system-ui, sans-serif; font-size: 10px; letter-spacing: .1em;
+  text-transform: uppercase; opacity: .6;
+}
+
+body { background: #111; }
+body.solo .page:not(.active) { display: none; }
+</style></head>
+<body>
+<div class="page" data-slug="night-ember" style="
+     --bg:#17130E; --fg:#CDB794; --fs:16.67px; --lh:1.62;
+     --pad:32.8px; --vpad:36.0px; width:360px; height:640px;">
+  <div class="frame"><div class="text"><p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.</p><p>Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso —que eran los más del año—, se daba a leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda.</p><p>Llenósele la fantasía de todo aquello que leía en los libros, así de encantamentos como de pendencias, batallas, desafíos, heridas, requiebros, amores, tormentas y disparates imposibles.</p><p>“My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is let at last?” Mr. Bennet replied that he had not.</p></div><div class="meta"><span>Night Ember</span><span>9.50:1</span></div></div>
+</div>
+<div class="page" data-slug="night-ink" style="
+     --bg:#1B1D1E; --fg:#BEC3C1; --fs:16.67px; --lh:1.62;
+     --pad:32.8px; --vpad:36.0px; width:360px; height:640px;">
+  <div class="frame"><div class="text"><p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.</p><p>Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso —que eran los más del año—, se daba a leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda.</p><p>Llenósele la fantasía de todo aquello que leía en los libros, así de encantamentos como de pendencias, batallas, desafíos, heridas, requiebros, amores, tormentas y disparates imposibles.</p><p>“My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is let at last?” Mr. Bennet replied that he had not.</p></div><div class="meta"><span>Night Ink</span><span>9.48:1</span></div></div>
+</div>
+<div class="page" data-slug="night-coal" style="
+     --bg:#0E0D0B; --fg:#B2A28B; --fs:16.67px; --lh:1.62;
+     --pad:32.8px; --vpad:36.0px; width:360px; height:640px;">
+  <div class="frame"><div class="text"><p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.</p><p>Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso —que eran los más del año—, se daba a leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda.</p><p>Llenósele la fantasía de todo aquello que leía en los libros, así de encantamentos como de pendencias, batallas, desafíos, heridas, requiebros, amores, tormentas y disparates imposibles.</p><p>“My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is let at last?” Mr. Bennet replied that he had not.</p></div><div class="meta"><span>Night Coal</span><span>7.80:1</span></div></div>
+</div>
+<div class="page" data-slug="day-parchment" style="
+     --bg:#EFE4CD; --fg:#3B2E1F; --fs:16.67px; --lh:1.62;
+     --pad:32.8px; --vpad:36.0px; width:360px; height:640px;">
+  <div class="frame"><div class="text"><p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.</p><p>Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso —que eran los más del año—, se daba a leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda.</p><p>Llenósele la fantasía de todo aquello que leía en los libros, así de encantamentos como de pendencias, batallas, desafíos, heridas, requiebros, amores, tormentas y disparates imposibles.</p><p>“My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is let at last?” Mr. Bennet replied that he had not.</p></div><div class="meta"><span>Day Parchment</span><span>10.43:1</span></div></div>
+</div>
+<div class="page" data-slug="day-linen" style="
+     --bg:#E7E2D8; --fg:#2F2F2C; --fs:16.67px; --lh:1.62;
+     --pad:32.8px; --vpad:36.0px; width:360px; height:640px;">
+  <div class="frame"><div class="text"><p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.</p><p>Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso —que eran los más del año—, se daba a leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda.</p><p>Llenósele la fantasía de todo aquello que leía en los libros, así de encantamentos como de pendencias, batallas, desafíos, heridas, requiebros, amores, tormentas y disparates imposibles.</p><p>“My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is let at last?” Mr. Bennet replied that he had not.</p></div><div class="meta"><span>Day Linen</span><span>10.40:1</span></div></div>
+</div>
+<div class="page" data-slug="day-sepia" style="
+     --bg:#E6D5B4; --fg:#302517; --fs:16.67px; --lh:1.62;
+     --pad:32.8px; --vpad:36.0px; width:360px; height:640px;">
+  <div class="frame"><div class="text"><p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.</p><p>Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso —que eran los más del año—, se daba a leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda.</p><p>Llenósele la fantasía de todo aquello que leía en los libros, así de encantamentos como de pendencias, batallas, desafíos, heridas, requiebros, amores, tormentas y disparates imposibles.</p><p>“My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is let at last?” Mr. Bennet replied that he had not.</p></div><div class="meta"><span>Day Sepia</span><span>10.37:1</span></div></div>
+</div>
+<script>
+const want = new URLSearchParams(location.search).get('t');
+if (want) {
+  document.body.classList.add('solo');
+  const el = document.querySelector(`.page[data-slug="${want}"]`);
+  if (el) el.classList.add('active');
+}
+</script>
+</body></html>
